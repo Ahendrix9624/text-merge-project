@@ -1,3 +1,12 @@
+"""
+USAGE - The code reads a list of names from a text file, and for each name, it opens another 
+        text file that serves as a letter template. The code replaces a placeholder string 
+        in the template with the current name and writes a new version of the letter to a 
+        separate output file, which is named according to the recipient's name.
+        
+AUTHOR - https://github.com/Ahendrix9624/
+"""
+
 PLACEHOLDER = "[name]"
 
 with open("Input/Names/invited_names.txt") as names_file:
